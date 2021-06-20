@@ -1,0 +1,13 @@
+{
+  "name": "project_3",
+  "version": "1.0.0",
+  "description": "project 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch ./scss/styles.scss:./prefix/styles.css",
+    "prefix": "postcss -w ./prefix/styles.css --use autoprefixer -d ./css/"
+  },
+  "author": "akane strader",
+  "license": "ISC"
+}

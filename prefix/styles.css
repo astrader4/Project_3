@@ -1,6 +1,128 @@
-#head-nav {
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.header--nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px 30px;
+}
+.header--search {
   display: flex;
   justify-content: center;
+  background-color: #e6e6e6;
+  border-top: 3px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  font-size: 1.2rem;
+}
+.header--search__pin {
+  font-size: 1.2rem;
+  position: relative;
+  top: 19px;
+  right: 25px;
+}
+.header--block {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 35px;
+}
+.header--block__h1 {
+  font-size: 1.5rem;
+  padding: 5px 0;
+}
+.header--block__h2 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.header--block__button {
+  font-size: 1.05rem;
+  padding: 15px;
+  border-radius: 20px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  color: white;
+  border: none;
+}
+
+.main--work {
+  position: relative;
+  padding-bottom: 20px;
+}
+.main--work__card__1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  margin: 15px 0;
+}
+.main--work__card__1 span {
+  position: absolute;
+  top: 60px;
+  right: 345px;
+  border: 1px solid #9356DC;
+  border-radius: 20px;
+  padding: 3px 5px;
+  background-color: #9356DC;
+  color: white;
+}
+.main--work__card__1 p {
+  font-weight: bold;
+  padding-left: 15px;
+}
+.main--work__card__2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  margin: 15px 0;
+}
+.main--work__card__2 span {
+  position: absolute;
+  top: 130px;
+  right: 345px;
+  border: 1px solid #9356DC;
+  border-radius: 20px;
+  padding: 3px 5px;
+  background-color: #9356DC;
+  color: white;
+}
+.main--work__card__2 p {
+  font-weight: bold;
+  padding-left: 15px;
+}
+.main--work__card__3 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e0c7ff;
+  border: 1px solid #e0c7ff;
+  border-radius: 20px;
+  margin: 15px 0;
+}
+.main--work__card__3 span {
+  position: absolute;
+  top: 196px;
+  right: 345px;
+  border: 1px solid #9356DC;
+  border-radius: 20px;
+  padding: 3px 5px;
+  background-color: #9356DC;
+  color: white;
+}
+.main--work__card__3 p {
+  font-weight: bold;
+  padding-left: 15px;
+}
+.main--work__card__phone, .main--work__card__list, .main--work__card__store {
+  padding-left: 35px;
+  padding-top: 17px;
+}
+.main--work__card__store {
+  color: #9356DC;
 }
 
 /*# sourceMappingURL=styles.css.map */

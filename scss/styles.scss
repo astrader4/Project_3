@@ -69,8 +69,6 @@ html{
         padding-bottom: 20px;
 
         &__card{
-            // display: flex;
-            // flex-wrap: wrap;
 
             &__1 {
                 display: flex;
@@ -78,15 +76,15 @@ html{
                 background-color: #f2f2f2;
                 border: 1px solid #f2f2f2;
                 border-radius: 20px;
-                margin: 15px 0;
+                margin: 15px 3px;
 
                 span {
                     position: absolute;
                     top: 60px;
-                    right: 345px;
+                    right: 338px;
                     border: 1px solid $p-color;
                     border-radius: 20px;
-                    padding: 3px 5px;
+                    padding: 3px 7px;
                     background-color: $p-color;
                     color: white;
                 }
@@ -103,15 +101,15 @@ html{
                 background-color: #f2f2f2;
                 border: 1px solid #f2f2f2;
                 border-radius: 20px;
-                margin: 15px 0;
+                margin: 15px 3px;
 
                 span {
                     position: absolute;
                     top: 130px;
-                    right: 345px;
+                    right: 338px;
                     border: 1px solid $p-color;
                     border-radius: 20px;
-                    padding: 3px 5px;
+                    padding: 3px 7px;
                     background-color: $p-color;
                     color: white;
                 }
@@ -125,18 +123,18 @@ html{
             &__3 {
                 display: flex;
                 flex-wrap: wrap;
-                background-color: #e0c7ff;
-                border: 1px solid #e0c7ff;
+                background-color: #ece4f7;
+                border: 1px solid #ece4f7;
                 border-radius: 20px;
-                margin: 15px 0;
+                margin: 15px 3px;
 
                 span {
                     position: absolute;
                     top: 196px;
-                    right: 345px;
+                    right: 338px;
                     border: 1px solid $p-color;
                     border-radius: 20px;
-                    padding: 3px 5px;
+                    padding: 3px 7px;
                     background-color: $p-color;
                     color: white;
                 }
@@ -158,6 +156,139 @@ html{
             
         }
         
+    }
+
+    &--restaurant {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #f2f2f2;
+        position: relative;
+
+        &__card {
+            margin-bottom: 25px;
+            background-color: white;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 15px;
+            box-shadow: 0 1px 0 1px #e6e6e6;
+            
+            & img{
+                object-fit: cover;
+                width: 300px;
+                height: 200px;
+                width: 100%;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+            }
+
+            &__title {
+                margin-left: 15px;
+            }
+
+            & p {
+                margin-left: 15px;
+                margin-top: -10px;
+            }
+
+            &__span {
+
+                &__1 {
+                    position: absolute;
+                    left: 250px;
+                    top: 85px;
+                    border: 1px solid $t-color;
+                    background-color: $t-color;
+                    padding: 10px 25px;
+                    color: green;
+                    border-radius: 5px;
+                }
+
+                &__2 {
+                    position: absolute;
+                    left: 250px;
+                    top: 400px;
+                    border: 1px solid $t-color;
+                    background-color: $t-color;
+                    padding: 10px 25px;
+                    color: green;
+                    border-radius: 5px;
+                }
+            }
+
+            &__heart {
+
+                &__1{
+                    position: absolute;
+                    left: 300px;
+                    top: 300px;
+                    font-size: 1.45rem;
+                }
+
+                &__2 {
+                    position: absolute;
+                    left: 300px;
+                    top: 615px;
+                    font-size: 1.45rem;
+                }
+
+                &__3 {
+                    position: absolute;
+                    left: 300px;
+                    top: 927px;
+                    font-size: 1.45rem;
+                }
+
+                &__4 {
+                    position: absolute;
+                    left: 300px;
+                    bottom: 58px;
+                    font-size: 1.45rem;
+                }
+            }
+        
+        }
+    }
+}
+
+.footer {
+    position: relative;
+    
+    &--nav {
+        background-color: rgb(65, 65, 65);
+        color: white;
+        padding-left: 25px;
+
+        &__h4 {
+            font-family: 'Shrikhand', cursive;
+            margin-top: -10px;
+            padding-top: 25px;
+            font-size: 1.1rem;
+        }
+
+        &__utensils {
+            position: absolute;
+        }
+
+        &__handshake {
+            position: absolute;
+        }
+
+        &__p {
+
+            &__1 {
+                margin-left: 35px;
+            }
+
+            &__2 {
+                margin-left: 35px; 
+            }
+
+            // &__3, &__4 {
+            //     margin-left: 5px;
+            // }
+        }
     }
 }
 

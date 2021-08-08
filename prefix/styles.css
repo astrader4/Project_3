@@ -15,7 +15,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: white;
-  animation: disappear 3s linear forwards;
+  animation: disappear 5s linear forwards;
 }
 
 .spin {
@@ -23,7 +23,7 @@ body {
   height: 20vw;
   border-radius: 50%;
   border-left: solid black;
-  animation: spin 3s linear infinite;
+  animation: spin 5s linear infinite;
 }
 
 @keyframes spin {
@@ -275,14 +275,14 @@ body {
 }
 .restaurant--h1 {
   padding-left: 10px;
-  padding-top: 5px;
+  padding-top: 15px;
   font-family: "Shrikhand", cursive;
   font-size: 1.75rem;
 }
 .restaurant .heartcontainer {
   position: absolute;
   left: 85%;
-  top: 1%;
+  top: 2%;
 }
 .restaurant--heart {
   position: absolute;
@@ -485,12 +485,29 @@ body {
     width: 45%;
   }
 
+  .restaurant {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .restaurant--h1 {
     text-align: center;
+    width: 100%;
+    padding-top: 5px;
+  }
+  .restaurant .heartcontainer {
+    top: 4%;
+  }
+  .restaurant__blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
   }
   .restaurant--card {
-    width: 40%;
     flex-direction: row;
+  }
+  .restaurant--block {
+    width: 100%;
   }
 }
 @media screen and (min-width: 901px) {
@@ -530,15 +547,22 @@ body {
   .restaurant--h1 {
     text-align: center;
     width: 100%;
+    padding-top: 5px;
+  }
+  .restaurant .heartcontainer {
+    top: 5%;
   }
   .restaurant__blocks {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
+    width: 33%;
   }
   .restaurant--card {
     flex-direction: row;
+  }
+  .restaurant--block {
+    width: 100%;
   }
 }
 

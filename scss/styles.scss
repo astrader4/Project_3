@@ -82,10 +82,14 @@ body {
         flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: -40px;
-            
-        & img{
+        
+        a {
+            flex: none;
+            width: 100%;
+        }
+        img{
             object-fit: cover;
-            width: 300px;
+            flex: none;
             height: 200px;
             width: 100%;
         }
@@ -151,6 +155,7 @@ body {
         &__card{
 
             &__1 {
+                position: relative;
                 display: flex;
                 flex-wrap: wrap;
                 background-color: #f2f2f2;
@@ -160,8 +165,8 @@ body {
 
                 span {
                     position: absolute;
-                    top: 60px;
-                    right: 350px;
+                    top: 10px;
+                    left: -5px;
                     border: 1px solid $p-color;
                     border-radius: 20px;
                     padding: 3px 7px;
@@ -176,6 +181,7 @@ body {
              }
 
             &__2 {
+                position: relative;
                 display: flex;
                 flex-wrap: wrap;
                 background-color: #f2f2f2;
@@ -185,8 +191,8 @@ body {
 
                 span {
                     position: absolute;
-                    top: 130px;
-                    right: 350px;
+                    top: 10px;
+                    left: -5px;
                     border: 1px solid $p-color;
                     border-radius: 20px;
                     padding: 3px 7px;
@@ -201,6 +207,7 @@ body {
             }
 
             &__3 {
+                position: relative;
                 display: flex;
                 flex-wrap: wrap;
                 background-color: #ece4f7;
@@ -210,8 +217,8 @@ body {
 
                 span {
                     position: absolute;
-                    top: 196px;
-                    right: 350px;
+                    top: 10px;
+                    left: -5px;
                     border: 1px solid $p-color;
                     border-radius: 20px;
                     padding: 3px 7px;
@@ -584,30 +591,6 @@ body {
     
     .main {
 
-        &--work {
-
-            &__card {
-
-                &__1 {
-                    span {
-                        right: 740px;
-                    }
-                }
-
-                &__2 {
-                    span {
-                        right: 740px;
-                    }
-                }
-
-                &__3 {
-                    span {
-                        right: 740px;
-                    }
-                }
-            }
-        }
-
         &--restaurant {
             flex-direction: row;
 
@@ -668,30 +651,6 @@ body {
     }
 
     .main {
-
-        &--work {
-
-            &__card {
-
-                &__1 {
-                    span {
-                        right: 950px;
-                    }
-                }
-
-                &__2 {
-                    span {
-                        right: 950px;
-                    }
-                }
-
-                &__3 {
-                    span {
-                        right: 950px;
-                    }
-                }
-            }
-        }
 
         &--restaurant {
             flex-direction: row;
